@@ -1,0 +1,18 @@
+
+logging:
+  path: ./MY_LOG_DIR
+
+server:
+  port: 9999
+
+---
+spring:
+  profiles: dev
+
+---
+spring:
+  profiles: test
+
+---
+spring:
+  profiles: prod
